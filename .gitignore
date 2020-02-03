@@ -1,0 +1,5 @@
+# 忽略Makefile产生的编译中间文件
+*.o
+*.s
+a.out
+*.exe
