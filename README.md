@@ -1,28 +1,28 @@
 # C--语言的代码生成器
 C--语言实现代码生成器，生成栈式计算机的指令代码。
 C--语言的语法
-prog   -> { decs stms }
-decs   -> dec decs
-        |
-dec    -> type id ;
-type   -> int
-        | bool
-stms   -> stm stms
-        |
-stm    -> id = exp ;
-        | printi(exp) ;
-        | printb(exp) ;
-exp    -> intnum
-        | true
-        | false
-        | id
-        | (exp)
-        | exp + exp
-        | exp - exp
-        | exp * exp
-        | exp / exp
-        | exp && exp
-        | exp || exp
+prog   -> { decs stms }  
+decs   -> dec decs  
+        |  
+dec    -> type id ;  
+type   -> int  
+        | bool  
+stms   -> stm stms  
+        |  
+stm    -> id = exp ;  
+        | printi(exp) ;  
+        | printb(exp) ;  
+exp    -> intnum  
+        | true  
+        | false  
+        | id  
+        | (exp)  
+        | exp + exp  
+        | exp - exp  
+        | exp * exp  
+        | exp / exp  
+        | exp && exp  
+        | exp || exp  
 
 首先编译该代码：
 
