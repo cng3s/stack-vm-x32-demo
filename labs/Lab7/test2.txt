@@ -1,0 +1,13 @@
+{
+  int a;
+  bool b;
+
+  a = 30;
+  b = false;
+  printi (a);
+  printb (b);
+  a = a + 3333;
+  b = b && true;
+  printi(a);
+  printb(b);
+}
